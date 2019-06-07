@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="CALCULATOR FOR SUM"
+       android:textSize="30dp"
+       android:textColor="@color/colorAccent"
+       android:layout_marginTop="10dp"
+       android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/fno"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:hint="Enter First No."
+        android:inputType="number" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lno"
+        android:hint="Enter Second No."
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        />
+
+    <TextView
+        android:id="@+id/sum"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textSize="20dp"
+
+        android:hint="SUM is" />
+
+</LinearLayout>
